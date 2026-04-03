@@ -1,15 +1,120 @@
-# Parking-Management-System
-Parking Management System is used to manage and solve the Parking Problems of the company/Institute. This project is build on Java using NetBeans.
-Use below mentioned UserName and Passowrd:
-For Admin Panel:
-UserName: admin
-Password: 1234
-For Staff:
-There are two staff basically who manage this software. One is responsible for checkin the car/bike and 
-other one is responsible for check out of te car/bike.
-Username 1: checkin
-Password: 1234
-UserName 2: checkout
-Password: 1234
-Before running this project edit the code path of DataBase in the DataBase Class.
-If you find any difficulty/ problem than reached me via https://www.facebook.com/CodingNinjaPK/
+# 🚗 Parking Management System
+
+A Java-based desktop application designed to manage parking operations efficiently. This system helps in tracking vehicles, managing parking slots, and maintaining records.
+
+---
+
+## 📌 Features
+
+* 🚘 Add and manage vehicles
+* 🅿️ Allocate and free parking slots
+* 🔍 Search vehicle records
+* 💰 Track parking charges/revenue
+* 👨‍💼 Admin panel for management
+* 📊 Simple and user-friendly interface
+
+---
+
+## 🛠️ Tech Stack
+
+* **Language:** Java
+* **Build Tool:** Apache Ant
+* **IDE:** NetBeans (Recommended)
+* **UI:** Java Swing / AWT
+
+---
+
+## 📂 Project Structure
+
+```
+Parking-Management-System-master/
+│
+├── src/
+│   ├── AdminPanel/
+│   ├── DataBase/
+│   ├── parking/
+│   └── login.java
+│
+├── build.xml
+├── manifest.mf
+├── nbproject/
+├── Pictures/
+└── README.md
+```
+
+---
+
+## 🚀 How to Run the Project
+
+### ✅ Method 1: Using NetBeans (Recommended)
+
+1. Install Apache NetBeans IDE
+2. Open NetBeans
+3. Click **File → Open Project**
+4. Select the project folder
+5. Click **Run ▶**
+
+---
+
+### ✅ Method 2: Using Terminal (Apache Ant)
+
+#### Step 1: Install Requirements
+
+* Install Java (JDK 8 or above)
+* Install Apache Ant
+
+#### Step 2: Run Commands
+
+```bash
+cd Parking-Management-System-master
+ant run
+```
+
+---
+
+## ⚙️ Requirements
+
+* Java JDK 8 or higher
+* Apache Ant
+* NetBeans IDE (optional but recommended)
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots of your application here)
+
+---
+
+## 📈 Future Improvements
+
+* Convert to web-based application
+* Add database (MySQL/PostgreSQL)
+* Implement user authentication
+* Add real-time slot tracking
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is for educational purposes.
+
+---
+
+## 👩‍💻 Author
+
+* Varshitha Mandha
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
